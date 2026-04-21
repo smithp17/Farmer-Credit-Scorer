@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Tests / linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Database (generated at runtime — never commit)
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Env files (if ever added)
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.claude/
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
